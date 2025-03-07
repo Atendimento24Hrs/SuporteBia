@@ -1,0 +1,223 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre os elementos */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Cor de fundo */
+    color: white;
+    width: 100%;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        gap: 10px;
+    }
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Para organizar os elementos em coluna no mobile */
+    align-items: center;
+    width: 100%;
+}
+img.w-100 {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+@media (max-width: 480px) { /* Para telas menores, como celulares */
+    img.w-100 {
+        width: 80%; /* Ajuste conforme necessário */
+        display: block;
+        margin: 0 auto; /* Centraliza a imagem */
+    }
+}
+
+.footer-logo {
+    width: 180px;
+}
+
+.center-section {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+}
+
+.right-section {
+    display: flex;
+    gap: 10px;
+}
+
+.right-section a {
+    background-color: white;
+    color: #d32f2f;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.right-section a:hover {
+    background-color: #fff;
+    color: #9b2222;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 12px;
+}
+footer {
+    background-color: #d32f2f; /* Cor vermelha personalizada */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+footer {
+    background: linear-gradient(135deg, #b81570, #cc092f); /* Degradê do vermelho claro para o escuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Seção das logos */
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer-logo {
+    width: 100px;
+    max-width: 100%;
+}
+
+/* Texto centralizado */
+.center-section {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* Ícones sociais */
+.right-section {
+    display: flex;
+    gap: 10px;
+}
+
+.right-section a {
+    background-color: white;
+    color: #d32f2f;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.right-section a:hover {
+    background-color: #fff;
+    color: #9b2222;
+}
+
+/* Texto de copyright */
+.copyright {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* 📱 Responsividade para Mobile */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-section {
+        align-items: center;
+    }
+
+    .right-section {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-logo {
+        width: 80px; /* Reduz o tamanho da logo no mobile */
+    }
+
+    .center-section p {
+        font-size: 12px; /* Texto menor para melhor encaixe */
+    }
+
+    .right-section a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+  
